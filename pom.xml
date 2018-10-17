@@ -13,6 +13,27 @@
             </resource>
             <resource>
                 <filtering>true</filtering>
+                <directory>services/googleapis/src</directory>
+                <excludes>
+                    <exclude>**/*.java</exclude>
+                </excludes>
+            </resource>
+            <resource>
+                <filtering>true</filtering>
+                <directory>services/hrdb/src</directory>
+                <excludes>
+                    <exclude>**/*.java</exclude>
+                </excludes>
+            </resource>
+            <resource>
+                <filtering>true</filtering>
+                <directory>services/randomuser/src</directory>
+                <excludes>
+                    <exclude>**/*.java</exclude>
+                </excludes>
+            </resource>
+            <resource>
+                <filtering>true</filtering>
                 <directory>services/securityService/src</directory>
                 <excludes>
                     <exclude>**/*.java</exclude>
@@ -101,6 +122,9 @@
                         </goals>
                         <configuration>
                             <sources>
+                                <source>services/googleapis/src</source>
+                                <source>services/hrdb/src</source>
+                                <source>services/randomuser/src</source>
                                 <source>services/securityService/src</source>
                             </sources>
                         </configuration>
@@ -268,6 +292,11 @@
             <artifactId>javax.servlet-api</artifactId>
             <version>3.1.0</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.hsqldb</groupId>
+            <artifactId>hsqldb</artifactId>
+            <version>2.4.1</version>
         </dependency>
     </dependencies>
     <dependencyManagement>
