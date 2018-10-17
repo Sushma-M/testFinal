@@ -696,5 +696,31 @@
     } ],
     "filterExpressions" : { },
     "package" : "com.testfinal.hrdb.Employee"
+  },
+  "serviceVariable1" : {
+    "_id" : "wm-serviceVariable1-wm.ServiceVariable-1539774405403",
+    "name" : "serviceVariable1",
+    "owner" : "Page",
+    "category" : "wm.ServiceVariable",
+    "dataBinding" : [ {
+      "target" : "resuts",
+      "value" : "10",
+      "type" : "java.lang.String"
+    } ],
+    "type" : "randomuser.RootResponse",
+    "service" : "randomuser",
+    "operation" : "invoke",
+    "operationId" : "randomuser_RestServiceVirtualController-invoke",
+    "operationType" : "get",
+    "serviceType" : "RestService",
+    "dataSet" : [ ],
+    "isList" : false,
+    "maxResults" : 20,
+    "startUpdate" : false,
+    "autoUpdate" : true,
+    "inFlightBehavior" : "executeLast",
+    "transformationRequired" : false,
+    "saveInPhonegap" : false,
+    "controller" : "RestServiceVirtual"
   }
 }

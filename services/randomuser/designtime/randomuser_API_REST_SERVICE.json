@@ -4,11 +4,11 @@
     "version" : "2.0",
     "x-WM-USE_PROXY_FOR_WEB" : true,
     "x-WM-USE_PROXY_FOR_MOBILE" : true,
-    "x-WM-API_ID" : "76eeb97b-7de4-4227-b382-9b862aea98a0",
-    "x-WM-SERVICE_ID" : "randomuser",
+    "x-WM-API_ID" : "4e3bfd4b-7baa-46ac-8a97-634f4b5eb298",
+    "x-WM-SERVICE_ID" : "randomuser2",
     "x-WM-SERVICE_TYPE" : "RestService"
   },
-  "host" : "api.randomuser.me",
+  "host" : "api.randomuser.me?resuts=10",
   "basePath" : "",
   "tags" : [ {
     "name" : "RestServiceVirtualController",
@@ -21,7 +21,14 @@
         "tags" : [ "RestServiceVirtualController" ],
         "operationId" : "randomuser_RestServiceVirtualController-invoke",
         "consumes" : [ "application/json" ],
-        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "resuts",
+          "in" : "query",
+          "description" : "resuts",
+          "required" : false,
+          "type" : "string",
+          "x-WM-EDITABLE" : false
+        } ],
         "responses" : {
           "200" : {
             "description" : "Success",
@@ -123,8 +130,7 @@
           "$ref" : "#/definitions/timezone"
         },
         "postcode" : {
-          "type" : "integer",
-          "format" : "int32"
+          "type" : "string"
         },
         "coordinates" : {
           "$ref" : "#/definitions/coordinates"

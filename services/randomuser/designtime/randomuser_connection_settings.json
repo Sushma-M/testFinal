@@ -4,28 +4,16 @@
   "headers" : { },
   "redirectEnabled" : true,
   "requestBody" : "",
-  "queryParams" : { },
+  "queryParams" : {
+    "resuts" : "10"
+  },
   "authDetails" : null,
   "contentType" : "application/json",
   "multiParamInfoList" : null,
   "sampleHttpResponseDetails" : {
-    "statusCode" : 200,
-    "headers" : {
-      "Date" : [ "Wed, 17 Oct 2018 10:49:26 GMT" ],
-      "Content-Type" : [ "application/json; charset=utf-8" ],
-      "Transfer-Encoding" : [ "chunked" ],
-      "Connection" : [ "keep-alive" ],
-      "Set-Cookie" : [ "__cfduid=da9503cac7a88814afc0a44edca4c629d1539773366; expires=Thu, 17-Oct-19 10:49:26 GMT; path=/; domain=.randomuser.me; HttpOnly" ],
-      "X-Powered-By" : [ "Express" ],
-      "Access-Control-Allow-Origin" : [ "*" ],
-      "Cache-Control" : [ "no-cache" ],
-      "ETag" : [ "W/\"477-IPdDmu19lGQufbH5+Ggkug\"" ],
-      "Vary" : [ "Accept-Encoding" ],
-      "Expect-CT" : [ "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"" ],
-      "Server" : [ "cloudflare" ],
-      "CF-RAY" : [ "46b232d1e8a5c1a4-IAD" ]
-    },
-    "responseBody" : "{\"results\":[{\"gender\":\"female\",\"name\":{\"title\":\"mademoiselle\",\"first\":\"michelle\",\"last\":\"gonzalez\"},\"location\":{\"street\":\"6602 rue cyrus-hugues\",\"city\":\"massonnens\",\"state\":\"vaud\",\"postcode\":7505,\"coordinates\":{\"latitude\":\"-54.4804\",\"longitude\":\"12.5662\"},\"timezone\":{\"offset\":\"+6:00\",\"description\":\"Almaty, Dhaka, Colombo\"}},\"email\":\"michelle.gonzalez@example.com\",\"login\":{\"uuid\":\"b61ca78e-2a66-40a0-91a4-149686bf91c2\",\"username\":\"crazybutterfly366\",\"password\":\"passwd\",\"salt\":\"PyAbOa2e\",\"md5\":\"0cb8370160e4223e74a3fdfc58563b17\",\"sha1\":\"062653bd163432dc0b7899d3dfa113d4289bd721\",\"sha256\":\"bb5abfbc8bab3508139ea67803a289895db97d27e15a4bf07c64455ab036d08e\"},\"dob\":{\"date\":\"1975-05-10T03:03:34Z\",\"age\":43},\"registered\":{\"date\":\"2009-04-05T04:15:26Z\",\"age\":9},\"phone\":\"(961)-718-0008\",\"cell\":\"(816)-814-2791\",\"id\":{\"name\":\"AVS\",\"value\":\"756.3803.8828.88\"},\"picture\":{\"large\":\"https://randomuser.me/api/portraits/women/52.jpg\",\"medium\":\"https://randomuser.me/api/portraits/med/women/52.jpg\",\"thumbnail\":\"https://randomuser.me/api/portraits/thumb/women/52.jpg\"},\"nat\":\"CH\"}],\"info\":{\"seed\":\"dab86755be2c52f9\",\"results\":1,\"page\":1,\"version\":\"1.2\"}}",
+    "statusCode" : 0,
+    "headers" : { },
+    "responseBody" : "{\"results\":[{\"gender\":\"female\",\"name\":{\"title\":\"mrs\",\"first\":\"hailey\",\"last\":\"leirvåg\"},\"location\":{\"street\":\"lunaveien 6515\",\"city\":\"høvåg\",\"state\":\"finnmark - finnmárku\",\"postcode\":\"1761\",\"coordinates\":{\"latitude\":\"52.0590\",\"longitude\":\"138.9910\"},\"timezone\":{\"offset\":\"-10:00\",\"description\":\"Hawaii\"}},\"email\":\"hailey.leirvåg@example.com\",\"login\":{\"uuid\":\"57919854-362d-48e0-8d43-3be10b5063af\",\"username\":\"blueelephant720\",\"password\":\"cooldude\",\"salt\":\"zlZH4ab1\",\"md5\":\"73dd794a713c94050d66895f89ba957b\",\"sha1\":\"3de83b291087bc9896daa8155fda955033f8eeeb\",\"sha256\":\"e8e366c1d10b9626cf757463d243a8ea9549460f76a4aef9883c51ab61f47de9\"},\"dob\":{\"date\":\"1993-10-19T19:09:32Z\",\"age\":24},\"registered\":{\"date\":\"2004-01-05T21:47:39Z\",\"age\":14},\"phone\":\"73042693\",\"cell\":\"93156647\",\"id\":{\"name\":\"FN\",\"value\":\"19109321381\"},\"picture\":{\"large\":\"https://randomuser.me/api/portraits/women/4.jpg\",\"medium\":\"https://randomuser.me/api/portraits/med/women/4.jpg\",\"thumbnail\":\"https://randomuser.me/api/portraits/thumb/women/4.jpg\"},\"nat\":\"NO\"}],\"info\":{\"seed\":\"c2b6540cf0efff8b\",\"results\":1,\"page\":1,\"version\":\"1.2\"}}",
     "convertedResponse" : null
   }
 }
